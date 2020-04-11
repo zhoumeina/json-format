@@ -1,6 +1,7 @@
 # JSON formatter by Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.3. There is lots of json formatter. This project built by angular and introduced jQuery to manipulating the dom element. 
+![demo picture](./demo.png)
 
 ## Development server
 
@@ -12,7 +13,28 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+The code of the JSON Editor is located in the folder `./src`. To build 
+jsoneditor:
+
+- Install dependencies:
+
+  ```
+  npm install
+  ```
+
+- Build JSON Editor:
+
+  ```
+  npm run build
+  ```
+
+  This will build the project.
+
+- To automatically build when a source file has changed:
+
+  ```
+  npm start
+  ```
 
 ## Running unit tests
 
