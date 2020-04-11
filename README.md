@@ -1,6 +1,6 @@
-# HelloWorldAngular
+# JSON formatter by Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.3. There is lots of json formatter. This project built by angular and introduced jQuery to manipulating the dom element. 
 
 ## Development server
 
