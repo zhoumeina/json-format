@@ -8,23 +8,7 @@ declare var $: any;
 })
 export class AppComponent implements OnInit {
   inputText: string;
-  inputObj: object = {
-    "sss": undefined,
-    "aaaa":33,
-    "state": "success",
-    "resources": 
-      {
-        "name": "NSX",
-        "state": "success",
-        "version": "",
-        "resources": 
-      {
-        "name": "NSX",
-        "state": "success",
-        "version": ""
-      }
-      }
-  };
+  inputObj: object;
 
   ngOnInit() {
     this.bindToggleActions();
