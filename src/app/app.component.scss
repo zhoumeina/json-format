@@ -1,0 +1,73 @@
+$page-margin:5px;
+$icon-width:10px;
+
+.container {
+    height:90%;
+}
+
+.flex,.left {
+    display: flex;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.left,.right {
+    flex:1;
+    overflow:scroll;
+}
+
+.input,.render {
+    margin:$page-margin;
+}
+
+.render {
+    border:1px solid #ccc;
+}
+
+.input-text {
+    flex:1;
+}
+
+.border-style {
+    border:1px solid #2980b9;
+}
+
+.purple {
+    color: purple;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.hide {
+    display: none;
+}
+
+.small-icon {
+    cursor: pointer;
+    width:$icon-width;
+    height:$icon-width;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:3px;
+}
+
+.margin-left-25 {
+    margin-left:25px;
+}
+
+.margin-right-3 {
+    margin-right:3px;
+}
+
+.inline {
+    display: inline;
+}
